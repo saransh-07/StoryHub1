@@ -27,7 +27,7 @@ return(
   source = {require('./assets/read.png')} 
   style = {{width : 40,height : 40}}/>
 )
-    } else {
+    } else if(routeName==='WriteStory'){
       return(<Image 
   source = {require('./assets/write.png')} 
   style =  {{width : 40,height : 40}}/>
